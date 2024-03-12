@@ -32,8 +32,8 @@ st.title("Bike Sharing Analysis Dashboard :man-biking:")
 
 
 # fungsi memuat semua data csv
-day_df = pd.read_csv("../data/day.csv")
-hour_df = pd.read_csv("../data/hour.csv")
+day_df = pd.read_csv("./data/day.csv")
+hour_df = pd.read_csv("./data/hour.csv")
 
 
 # melakukan rename nama kolom
@@ -59,7 +59,7 @@ max_date = pd.to_datetime(day_df["dateday"]).dt.date.max()
 
 # tampilan sidebar dashboard
 with st.sidebar:
-    st.image("bike_share.jpg")
+    st.image("./dashboard/bike_share.jpg")
     start_date, end_date = st.date_input(
         label="Date Range",
         min_value=min_date,
