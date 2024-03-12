@@ -32,8 +32,8 @@ st.title("Bike Sharing Analysis Dashboard :man-biking:")
 
 
 # fungsi memuat semua data csv
-day_df = pd.read_csv("../data/day.csv")
-hour_df = pd.read_csv("../data/hour.csv")
+day_df = pd.read_csv("./data/day.csv")
+hour_df = pd.read_csv("./data/hour.csv")
 
 
 # melakukan rename nama kolom
