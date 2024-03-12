@@ -1,1 +1,1 @@
-# Bike Sharing Analysis Dashboard :man-biking:
+# Bike Sharing Analysis Dashboard :bicyclist:
