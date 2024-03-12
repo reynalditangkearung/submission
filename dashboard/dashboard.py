@@ -59,7 +59,7 @@ max_date = pd.to_datetime(day_df["dateday"]).dt.date.max()
 
 # tampilan sidebar dashboard
 with st.sidebar:
-    st.image("bike_share.jpg")
+    st.image("./dashboard/bike_share.jpg")
     start_date, end_date = st.date_input(
         label="Date Range",
         min_value=min_date,
