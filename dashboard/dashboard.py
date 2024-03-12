@@ -32,7 +32,6 @@ st.title("Bike Sharing Analysis Dashboard :man-biking:")
 
 
 # fungsi memuat semua data csv
-all_df = pd.read_csv("../main_data.csv")
 day_df = pd.read_csv("../data/day.csv")
 hour_df = pd.read_csv("../data/hour.csv")
 
